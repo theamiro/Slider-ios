@@ -15,6 +15,11 @@
 		02E13D492456AE5E00B53D83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02E13D472456AE5E00B53D83 /* LaunchScreen.storyboard */; };
 		02E13D542456AE5E00B53D83 /* SliderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E13D532456AE5E00B53D83 /* SliderTests.swift */; };
 		02E13D5F2456AE5E00B53D83 /* SliderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E13D5E2456AE5E00B53D83 /* SliderUITests.swift */; };
+		02E13D6D2456B60700B53D83 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E13D6C2456B60700B53D83 /* MenuViewController.swift */; };
+		02E13D6F2456B61F00B53D83 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E13D6E2456B61F00B53D83 /* MainViewController.swift */; };
+		02E13D732456E11600B53D83 /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E13D722456E11600B53D83 /* CustomViewController.swift */; };
+		02E13D752456E27600B53D83 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E13D742456E27600B53D83 /* HomeViewController.swift */; };
+		02E13D772456E28C00B53D83 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E13D762456E28C00B53D83 /* NotificationsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		02E13D5A2456AE5E00B53D83 /* SliderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SliderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02E13D5E2456AE5E00B53D83 /* SliderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderUITests.swift; sourceTree = "<group>"; };
 		02E13D602456AE5E00B53D83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02E13D6C2456B60700B53D83 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		02E13D6E2456B61F00B53D83 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		02E13D722456E11600B53D83 /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
+		02E13D742456E27600B53D83 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		02E13D762456E28C00B53D83 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,11 @@
 				02E13D3E2456AE5900B53D83 /* SceneDelegate.swift */,
 				02E13D402456AE5900B53D83 /* ViewController.swift */,
 				02E13D422456AE5900B53D83 /* Main.storyboard */,
+				02E13D742456E27600B53D83 /* HomeViewController.swift */,
+				02E13D762456E28C00B53D83 /* NotificationsViewController.swift */,
+				02E13D722456E11600B53D83 /* CustomViewController.swift */,
+				02E13D6C2456B60700B53D83 /* MenuViewController.swift */,
+				02E13D6E2456B61F00B53D83 /* MainViewController.swift */,
 				02E13D452456AE5E00B53D83 /* Assets.xcassets */,
 				02E13D472456AE5E00B53D83 /* LaunchScreen.storyboard */,
 				02E13D4A2456AE5E00B53D83 /* Info.plist */,
@@ -259,9 +274,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02E13D772456E28C00B53D83 /* NotificationsViewController.swift in Sources */,
 				02E13D412456AE5900B53D83 /* ViewController.swift in Sources */,
+				02E13D732456E11600B53D83 /* CustomViewController.swift in Sources */,
 				02E13D3D2456AE5900B53D83 /* AppDelegate.swift in Sources */,
+				02E13D752456E27600B53D83 /* HomeViewController.swift in Sources */,
 				02E13D3F2456AE5900B53D83 /* SceneDelegate.swift in Sources */,
+				02E13D6D2456B60700B53D83 /* MenuViewController.swift in Sources */,
+				02E13D6F2456B61F00B53D83 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
